@@ -1,4 +1,3 @@
-#coding=utf-8
 from array import array
 from math import sin, cos
 
@@ -14,14 +13,11 @@ import binascii
 from multiprocessing import Process,Queue
 import time
 import csv
-#
 
 collecttime = 10
 bin_ori = ''
 COLORS = ["blue", "red"]
 DT = 0.1
-
-
 
 class RealtimeDemo(QWidget):
     def __init__(self, arg = {}):
